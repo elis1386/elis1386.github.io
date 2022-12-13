@@ -1,0 +1,123 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    border: 2px solid #69123B;
+    border-radius: 10px;
+}
+.container
+{
+    max-width: 1240px;
+    margin: auto;
+}
+header,section,footer {
+    padding: 1rem;
+}
+
+/* HEADER */
+.header{
+    background-color: #69123B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #69123B;
+}
+.header a {
+    color: #FBE0D1;
+}
+.header a:hover{
+    color: white;
+}
+.header_name
+{
+    display: flex;
+    flex-direction: column;
+}
+.header_title{
+    font-size: 3.5rem;
+    color: #FBE0D1;
+}
+.user_name
+{
+    font-size: 2rem;
+    color: #FBE0D1;
+    margin-top: 1rem;
+}
+.logo
+{
+    max-width: 100%;
+    height: 100px;
+}
+
+/* Ohjelmointi */
+.ohjelmointi
+{
+    padding: 2rem;
+    border: 1px solid #69123B;
+    border-width: 0 0 1px 0;
+
+}
+.title
+{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.subtitle
+{
+    font-size: 2rem;
+    margin: 1.4rem;
+}
+a{
+    color: #69123B;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #69123B;
+    color: white;
+    padding: .5rem;
+}
+ol{
+    list-style: decimal;
+    margin-left: 4rem;
+    color: #69123B;
+    font-size: 3rem;
+}
+/* ANGULAR */
+.angular{
+    margin-bottom: 0;
+    border: 1px solid #69123B;
+    border-width: 0 0 1px 0;
+    padding: 2rem;
+}
+.angular_height
+{
+    height: 200px;
+}
+/*Ohjelmistikehitaja */
+.ohjelmistikehitaja
+{
+    border: 1px solid #69123B;
+    border-width: 0 0 1px 0;
+    padding: 2rem;
+}
+/* FOOTER */
+.footer{
+    background-color: #69123B;
+    color: #FBE0D1;
+    border-radius: 0 0 10px 10px;
+    font-size: 2rem;
+    height: 80px;
+}
+.footer a {
+    color: #FBE0D1;
+}
+.footer a:hover{
+    color: white;
+}
+.footer_title
+{
+    margin-top: 3rem;
+}

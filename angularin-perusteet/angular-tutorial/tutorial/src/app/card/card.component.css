@@ -1,0 +1,37 @@
+.card{
+    padding: .5rem 1rem;
+    border: 1px dashed #ccc;
+    margin-bottom: 1rem;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+h2{
+    margin-bottom: .5em;
+}
+.changeText, .changeTitle{
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    padding: .5em;
+    border-radius: .5em;
+    background-color:white;
+    color: black;
+}
+.text
+{
+    color: rgb(5, 114, 78);
+}
+.red{
+    color: rgb(222, 82, 82);
+}
+.black{
+    color: black;
+}
